@@ -6,25 +6,16 @@ to perform a series of steps
 ## Usage
 
 1. Install [AutoHotkey](https://www.autohotkey.com/)
-2. Save [Spelunky2.ahk](Spelunky2.ahk) on your computer
+2. Save [Spelunky2.ahk](https://raw.githubusercontent.com/mauvealerts/spelunky2-ahk/main/Spelunky2.ahk) on your computer
 3. Add your hotkeys at the bottom
 
 ## Provided functions
 
-FastStart()
-: Skips opening scenes, goes to Adventure mode
-
-InstantReset()
-:  Opens pause menu, instant resets (assumes no confirmation)
-
-ResetForAST()
-: Opens pause menu, resets shortcuts, goes to Adventure mode
-
-ResetForAC()
-: Opens pause menu, resets characters, goes to Adventure mode
-
-ResetForAJE()
-: Opens pause menu, resets journal, goes to Adventure mode
+- `FastStart()` Skips opening scenes, goes to Adventure mode
+- `InstantReset()` Opens pause menu, instant resets (assumes no confirmation)
+- `ResetForAST()` Opens pause menu, resets shortcuts, goes to Adventure mode
+- `ResetForAC()` Opens pause menu, resets characters, goes to Adventure mode
+- `ResetForAJE()` Opens pause menu, resets journal, goes to Adventure mode
 
 ### Warnings
 
