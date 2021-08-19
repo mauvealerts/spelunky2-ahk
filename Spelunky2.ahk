@@ -8,7 +8,7 @@
 ;   InstantReset() - Opens pause menu, instant resets (assumes no confirmation)
 ;   ResetForAST() - Opens pause menu, resets shortcuts, goes to Adventure mode
 ;   ResetForAC() - Opens pause menu, resets characters, goes to Adventure mode
-;   ResetForAJE() - Opens pause menu, resets characters, goes to Adventure mode
+;   ResetForAJE() - Opens pause menu, resets journal, goes to Adventure mode
 ; 
 ; Example: Ctrl+Shift+R for instant reset
 ;   ^+R::
@@ -22,14 +22,14 @@
 ;   return
 ; 
 ; PS4 buttons
-; L1       Joy5
-; R1       Joy6
-; L2       Joy7
-; R2       Joy8
 ; X        Joy2
 ; Square   Joy1
 ; Triangle Joy4
 ; Circle   Joy3
+; L1       Joy5
+; R1       Joy6
+; L2       Joy7
+; R2       Joy8
 ; Sharing  Joy9
 ; Options  Joy10
 ; Touchpad Joy14
@@ -38,14 +38,14 @@
 ; R Stick  Joy12
 ;
 ; XBox buttons
-; LB       Joy5
-; RB       Joy6
-; LT       Joy7
-; RT       Joy8
 ; A        Joy2
 ; X        Joy1
 ; Y        Joy4
 ; B        Joy3
+; LB       Joy5
+; RB       Joy6
+; LT       Joy7
+; RT       Joy8
 ; View     Joy9
 ; Menu     Joy10
 ; L Stick  Joy11
