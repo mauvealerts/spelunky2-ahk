@@ -1,6 +1,6 @@
 ; AutoHotKey functions for Spelunky 2
 ;
-; These must be in a file ending in .ahk
+; This must be in a file ending in .ahk
 ; Add hotkeys at the bottom.
 ;
 ; Provided functions:
@@ -10,14 +10,16 @@
 ;   ResetForAC() - Opens pause menu, resets characters, goes to Adventure mode
 ;   ResetForAJE() - Opens pause menu, resets characters, goes to Adventure mode
 ; 
-; Example: Ctrl+Shift+R for instant
+; Example: Ctrl+Shift+R for instant reset
 ;   ^+R::
 ;       InstantReset()
 ;   return
 ;
-; Example: PS4 controller L1 + L2 reset for AS+T
-;   Joy5 & Joy6::
-;       ResetForAllShortcuts()
+; Example: PS4 controller PS button reset for AS+T
+;   
+;   Joy13::
+;       ResetForAST()
+;   return
 ; 
 ; PS4 buttons
 ; L1       Joy5
