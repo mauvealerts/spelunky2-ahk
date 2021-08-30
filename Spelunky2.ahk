@@ -100,7 +100,7 @@ ResetForAJE() {
 
 ResetForAC() {
     ResetToDataManagement()
-    DMResetJournal()
+    DMResetCharacters()
     DMReturnToAdventure()
 }
 
