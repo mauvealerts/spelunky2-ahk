@@ -95,6 +95,8 @@ ResetForAST() {
 ResetForAJE() {
     ResetToDataManagement()
     DMResetJournal()
+    DMResetShortcuts()
+    DMResetCharacters()
     DMReturnToAdventure()
 }
 
